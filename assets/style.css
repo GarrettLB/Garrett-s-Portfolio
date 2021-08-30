@@ -1,0 +1,38 @@
+/* --Header-- */
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: dimgray;
+    color: white;
+    padding: 10px;
+}
+
+/* Header nav-bar */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    color: wheat;
+}
+
+
+/* --Footer-- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    color: white;
+}
