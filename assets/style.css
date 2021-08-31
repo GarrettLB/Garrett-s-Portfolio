@@ -1,21 +1,22 @@
-/* --Header-- */
+/* * --Header-- */
 header {
+    height: 50px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     background-color: dimgray;
     color: white;
-    padding: 10px;
+    padding: 1%;
 }
 
 /* Header nav-bar */
-nav ul {
+header nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -23,8 +24,55 @@ nav a {
     padding: 0 15px;
 }
 
-nav a:hover {
+header nav a:hover {
     color: wheat;
+}
+
+/* --Main-- */
+/* --Article */
+article {
+    padding: 1%;
+    border-bottom: 1px solid midnightblue;
+}
+
+article h2 {
+    padding: 0 20px;
+}
+
+article p {
+    font-size: 115%;
+    padding: 0 20px;
+}
+
+
+/* --Projects-- */
+.Projects {
+    border-bottom: 1px solid midnightblue;
+}
+
+.Projects h2 {
+    padding: 0 20px;
+}
+
+
+/* --ContactMe-- */
+.ContactMe h2 {
+    text-align: center;
+}
+
+section {
+    padding: 1%;
+}
+
+section nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+section nav a {
+    font-weight: bold;
+    line-height: 2.0;
 }
 
 
