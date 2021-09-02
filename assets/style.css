@@ -54,6 +54,51 @@ article p {
     padding: 0 20px;
 }
 
+.Projects div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Container */
+.Container {
+    position: relative;
+}
+
+/* span */
+.span {
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    color: white;
+    font-size: 200%;
+    background-color: dimgray;
+}
+
+/* big_img */
+.big_img {
+    border: 5px solid dimgray;
+    height: 350px;
+    width: 450;
+}
+
+.big_img:hover {
+    opacity: 0.6;
+}
+
+/* coming_soon */
+.coming_soon {
+    border: 5px solid dimgray;
+    height: 250px;
+    width: 300px;
+}
+
+.coming_soon:hover {
+    opacity: 0.6;
+}
+
+
 
 /* --ContactMe-- */
 .ContactMe h2 {
@@ -68,6 +113,9 @@ section nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    border: 2px solid midnightblue;
+    border-radius: 15px;
+    padding: 10px 0;
 }
 
 section nav a {
