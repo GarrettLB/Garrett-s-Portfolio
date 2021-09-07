@@ -33,15 +33,33 @@ header nav a:hover {
 article {
     padding: 1%;
     border-bottom: 1px solid midnightblue;
+    max-height: 600px;
+
+}
+
+article img {
+    height: 500px;
+    width: 250px;
+    align-self: flex-start;
 }
 
 article h2 {
     padding: 0 20px;
 }
 
+article div {
+    display: flex;
+}
+
+article figcaption {
+    margin: 100px 50px 180px 70px;
+    padding: 0px 10px;
+    border: 2px solid midnightblue;
+    border-radius: 15px;
+}
+
 article p {
     font-size: 115%;
-    padding: 0 20px;
 }
 
 
