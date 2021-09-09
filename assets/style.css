@@ -29,18 +29,16 @@ header nav a:hover {
 }
 
 /* --Main-- */
-/* --Article */
+/* --Article-- */
 article {
     padding: 1%;
     border-bottom: 1px solid midnightblue;
-    max-height: 600px;
-
 }
 
 article img {
-    height: 500px;
-    width: 250px;
-    align-self: flex-start;
+    max-height: 500px;
+    max-width: 250px;
+    margin: 0px 30px 30px 0px;
 }
 
 article h2 {
@@ -49,17 +47,17 @@ article h2 {
 
 article div {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 article figcaption {
-    margin: 100px 50px 180px 70px;
-    padding: 0px 10px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    max-width: 1000px;
     border: 2px solid midnightblue;
     border-radius: 15px;
-}
-
-article p {
-    font-size: 115%;
+    font-size: 125%;
 }
 
 
@@ -74,6 +72,7 @@ article p {
 
 .Projects div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
@@ -97,8 +96,8 @@ article p {
 /* big_img */
 .big_img {
     border: 5px solid dimgray;
-    height: 350px;
-    width: 450;
+    max-height: 350px;
+    max-width: 450px;
 }
 
 .big_img:hover {
@@ -108,8 +107,8 @@ article p {
 /* coming_soon */
 .coming_soon {
     border: 5px solid dimgray;
-    height: 250px;
-    width: 300px;
+    max-height: 250px;
+    max-width: 300px;
 }
 
 .coming_soon:hover {
@@ -149,4 +148,40 @@ footer {
     align-items: center;
     background-color: dimgray;
     color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        background-color: midnightblue;
+        color:paleturquoise
+    }
+    header nav a {
+        color:paleturquoise
+    }
+    header nav a:hover {
+        color:white
+    }
+
+    .big_img {
+        border-color: midnightblue;
+    }
+    .coming_soon {
+        border-color: midnightblue;
+    }
+    .span {
+        background-color: midnightblue;
+    }
+
+    footer {
+        background-color: midnightblue;
+        color:paleturquoise
+    }
+}
+    
+
+@media screen and (max-width: 768px) {
+    article div {
+        flex-direction: column;
+        align-items: center;
+    }
 }
