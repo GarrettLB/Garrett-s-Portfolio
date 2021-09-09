@@ -96,8 +96,8 @@ article figcaption {
 /* big_img */
 .big_img {
     border: 5px solid dimgray;
-    max-height: 400px;
-    max-width: 400px;
+    height: 275px;
+    width: 350px;
 }
 
 .big_img:hover {
@@ -107,8 +107,8 @@ article figcaption {
 /* coming_soon */
 .coming_soon {
     border: 5px solid dimgray;
-    max-height: 250px;
-    max-width: 250;
+    height: 250px;
+    width: 250;
 }
 
 .coming_soon:hover {
