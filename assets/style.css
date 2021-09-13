@@ -1,6 +1,7 @@
 /* * --Header-- */
 header {
-    height: 50px;
+    min-height: 50px;
+    max-height: 60px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -12,7 +13,7 @@ header {
 /* Header nav-bar */
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -21,7 +22,7 @@ header nav a {
     color: white;
     font-weight: bold;
     font-size: 125%;
-    padding: 0px 15px;
+    padding-right:  15px;
 }
 
 header nav a:hover {
@@ -73,7 +74,6 @@ article figcaption {
 .Projects div {
     display: flex;
     /* flex-wrap: wrap; */
-    height: 400;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
@@ -84,6 +84,7 @@ article figcaption {
 .Container {
     position: relative;
     min-width: 0;
+    max-width: 30%;
 }
 
 /* span */
@@ -99,6 +100,7 @@ article figcaption {
 /* big_img */
 .big_img {
     border: 5px solid dimgray;
+    /* max-width: 350px; */
     min-width: 0;
     height: auto;
     width: 100%;
@@ -112,8 +114,9 @@ article figcaption {
 /* coming_soon */
 .coming_soon {
     border: 5px solid dimgray;
+    max-width: 250;
     min-width: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -168,6 +171,10 @@ footer {
         color:white
     }
 
+    .span {
+        font-size: 150%;
+    }
+
     .big_img {
         border-color: midnightblue;
     }
@@ -192,6 +199,14 @@ footer {
     }
 
     .Projects div {
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Container {
+        max-width: 100%;
+    }
+
+    .span {
+        font-size: 100%;
     }
 }
