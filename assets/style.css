@@ -22,7 +22,7 @@ header nav a {
     color: white;
     font-weight: bold;
     font-size: 125%;
-    padding-right:  15px;
+    padding-right:  1em;
 }
 
 header nav a:hover {
@@ -160,35 +160,12 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-    header {
-        background-color: midnightblue;
-        color:paleturquoise
-    }
-    header nav a {
-        color:paleturquoise
-    }
-    header nav a:hover {
-        color:white
-    }
-
     .span {
         font-size: 150%;
     }
 
-    .big_img {
-        border-color: midnightblue;
-    }
-    .coming_soon {
-        border-color: midnightblue;
-    }
-    .span {
-        background-color: midnightblue;
-    }
 
-    footer {
-        background-color: midnightblue;
-        color:paleturquoise
-    }
+   
 }
     
 
